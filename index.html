@@ -28,12 +28,12 @@
                 <h2>Nashville</h2>
                 <div id="temp-setting">
                     show temperature in
-                    <select name="show temp" id="temperature" >
-                        <option value="C">
-                            C
+                    <select name="show_temp"id="temperature" onchange="converttemp()">
+                        <option value="metric">
+                            °C
                         </option>
-                        <option value="F">
-                            F
+                        <option value="imperial">
+                            °F
                         </option>
                     </select>
                 </div>
@@ -41,7 +41,7 @@
         </div>
         <div id="main-content">
             <div class="weather">
-                <h3 class="dayofweeks">Today</h3>
+                <h3 class="dayofweeks" id="date">Today</h3>
                 <img src="assets/some_rain.png" class="weather-img" id="img_element" alt="some_rain">
                 <p class="forecast" id="forecast">some rain</p>
                 <div class="high_low">
