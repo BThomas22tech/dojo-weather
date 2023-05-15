@@ -1,0 +1,104 @@
+
+
+#container{
+    width: 700px;
+    margin: auto;
+}
+#nav{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+#top-nav{
+    background-color: #9fc5f8;
+}
+#current-location{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+}
+
+#main-content{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.weather{
+    padding: 10px;
+    border: 1px solid black;
+    height: 270px;
+    margin: 5px;
+    background-color: lightgray;
+    margin-left: 15px;
+}
+
+#cookie-holder{
+    display: flex;
+}
+
+.weather-img{
+    width: 100px;
+}
+
+.dayofweeks{
+    text-align: center;
+}
+.weather-img{
+    display: block;
+    margin: auto;
+    background-color: white;
+    border-radius: 50%;
+}
+.forecast{
+    text-align: center;
+}
+
+.high{
+    color: red;
+    font-size: larger;
+    font-weight: bolder;
+}
+.low{  
+    margin-left: 28px;
+    color: blue;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#cookie{
+    margin: 25px;
+    width: 55px;
+}
+#cookie-box{
+    border: 2px solid black;
+    position: fixed;
+    width: 702px;
+}
+
+#btn{
+    width: 200px;
+    background-color: lightblue;
+    box-shadow: 5px 5px 5px;
+    margin: 50px;
+}
+#temp-setting{
+    margin-top: 27px;
+}
+
+.city{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 31px;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+span{
+    align-items: center;
+}
+.high_low{
+    display: flex;
+    justify-content: center;
+}
